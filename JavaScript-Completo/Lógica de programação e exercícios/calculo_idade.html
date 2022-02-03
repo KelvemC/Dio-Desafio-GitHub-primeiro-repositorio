@@ -1,0 +1,25 @@
+<html lang = 'pt-bt'>
+    <head>
+        <title>Calculo Idade</title>
+        <meta charset='utf-8'/>
+    </head>
+    <body>
+        <script>
+           /*
+           var nascimento = prompt('Em que ano você nasceu?');
+           var anoAtual = 2021;
+           var idade = anoAtual-nascimento;
+
+           console.log('A sua idade é: ' + idade);
+           */
+          var anoNascimento = prompt('Informe o ano em que você nasceu');
+          while(anoNascimento>=2020||anoNascimento<=1850){
+              alert('Informe o ano de nascimento corretamente: ');
+              anoNascimento = prompt('Informe um ano válido: ');
+          }
+          var anoAtual = prompt('Informe o ano atual: ');
+          var idade = anoAtual-anoNascimento;
+          alert('A sua idade é ' + idade);
+        </script>
+    </body>
+</html>

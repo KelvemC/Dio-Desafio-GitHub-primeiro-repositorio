@@ -1,0 +1,40 @@
+<html lang = "pt-br">
+    <head>
+        <title>Praticando POO com JS</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <script>
+            function Pessoa(){
+                this.nome = 'Kelvem';
+                this.idade = 27;
+                this.printNome = function(numero){
+                    alert(numero);
+                };
+                this.returnAnimal = function(animal){
+                    return animal;
+
+                }
+            }
+            function Animal(nome, peso){
+                if(nome == undefined){
+                    nome = 'Cachorro';
+                }
+
+                if(peso == undefined){
+                    peso = '20Kg';
+                }
+
+                this.nome = nome;
+                this.peso = peso;
+            }
+            var pessoa = new Pessoa();
+            
+            animal = new Animal('gato');
+            
+            alert(pessoa.returnAnimal(animal).peso);
+
+            
+        </script>
+    </body>
+</html>

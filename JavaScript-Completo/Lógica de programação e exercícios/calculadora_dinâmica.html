@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Calculadora Dinâmica</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <script>
+            //Aplicação calculadora dinâmica.
+
+            //Queremos um número inicial.
+            //Queremos um sinal(Tipo do operação)
+            //Quero um número final
+          
+            var num1 = prompt('Informe o número inicial: ');
+            var sinal = prompt('Informe o tipo de operação: ');
+            while(sinal != '-' && sinal!= '+' && sinal!='/' && sinal!='*'){
+                alert('Informe um operador válido!');
+                sinal = prompt('Insira um operador');
+            }
+            var num2 = prompt('Informe o número final: ');
+            var calculo = 0;
+            num1 = parseInt(num1);
+            num2 = parseInt(num2);
+            if(sinal=='-'){
+                calculo = num1-num2;
+            }
+           
+            else if(sinal == '+'){
+                calculo = num1+num2;
+            }
+
+            else if(sinal == '/'){
+                calculo = num1/num2;
+            }
+
+            else if(sinal == '*'){
+                calculo = num1*num2;
+            }
+
+            alert('O calculo deu: ' + calculo);
+        </script>
+    </body>
+</html>

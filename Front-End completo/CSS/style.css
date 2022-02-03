@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+div.menu{
+    margin: 0 auto;
+    background-color: #7f71c6;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu div.Logo{
+    /*background-color: red*/
+}
+div.menu-itens{
+    text-align: right;
+    width: 60%;
+    /*background-color: blue;*/
+}
+
+
+
+div.menu a{
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 5px;
+}
+
+div.menu p{
+    display: inline;
+    text-align: left;
+    margin: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+div.menu a:hover{
+    border-bottom: 2px solid white;
+}
+
+section .text h2{
+    text-align: center;
+    font-size: 60px;
+    color: #7f71c6;
+}
+
+section .text  p{
+    padding: 35px;
+    font-size: 22px;
+    display: block;
+    background-color: #7f71c6;
+    border-radius: 20px;
+    margin: 30px;
+    color: white;
+}
+
+.imagem{
+    padding: 20px;
+    text-align: center;
+}
+
+section .tt {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    color: #7f71c6;
+}
+
+section .img2 {
+    text-align: center;
+    
+}
+
+section .text2 p{
+    display: block;
+    margin: 35px;
+    font-size: 22px;
+    text-align:start;
+    background-color: #7f71c6;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+}
+
+section .contato{
+    padding: 40px 0;
+    text-align: center;
+}
+
+section .contato h1{
+    text-align: center;
+    font-size: 55px;
+    color: #7f71c6;
+}
+
+section .contato form{
+    width: 100%;
+    
+}
+
+.contato input[type = text],
+.contato input[type = email]{
+    width: 50%;
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    padding-left: 10px;
+}
+
+.contato textarea{
+    width: 50%;
+    height: 120px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    padding: 10px;
+    resize: vertical;
+}
+
+.contato input[type=submit]{
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    background: #7f71c6;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
